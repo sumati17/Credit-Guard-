@@ -1,0 +1,31 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Raw and customer-level data
+data/raw/
+data/interim/
+data/processed/
+reports/customer_risk_intelligence.csv
+reports/test_predictions.csv
+
+# Local environment and secrets
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary files
+*.log
